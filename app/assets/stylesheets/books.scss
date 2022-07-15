@@ -6,7 +6,7 @@
    padding:0;
    box-sizing: border-box;
  }
-p,td{
+p,td,ul{
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
@@ -47,3 +47,22 @@ textarea{
 .post-button input{
   padding: 1px 6px;
 }
+
+.error-box {
+  width: 450px;
+  border: 2px solid #CC0000;
+  background-color: #F0F0F0;
+}
+.error-box h2{
+  color:#fff;
+  background-color: #CC0000;
+  padding: 5px 5px 5px 15px;
+  margin: 0px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+

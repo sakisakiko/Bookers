@@ -30,14 +30,17 @@
 <h2>New book</h2>
 
  
-    <% if @book.errors.any? %>
-     <h2>2 errors prohibited this book from being saved:</h2>
+   <% if @book.errors.any? %>
+   <div class="error-box"> 
+    <h2><%=@book.errors.count %>errors prohibited this book from being saved:</h2>
     <ul>
-      <% @book.errors.full_message.each do |message| %>
+      <% @book.errors.full_messages.each do |message| %>
      <li><%= message %></li>
      <% end %>
     </ul>
+    </div> 
    <% end %>
+ 
 
 
 
