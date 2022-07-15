@@ -44,6 +44,9 @@ textarea{
   padding: 2px;
 }
 
+.post-button{
+  margin-bottom: 10px;
+}
 .post-button input{
   padding: 1px 6px;
 }
@@ -52,6 +55,7 @@ textarea{
   width: 450px;
   border: 2px solid #CC0000;
   background-color: #F0F0F0;
+  margin-bottom: 20px;
 }
 .error-box h2{
   color:#fff;
@@ -62,6 +66,13 @@ textarea{
   font-size: 12px;
   font-weight: bold;
 }
+
+.flash-message{
+  color: #008000;
+  margin: 33px;
+}
+
+
 
 
 
